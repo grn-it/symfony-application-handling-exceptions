@@ -18,6 +18,7 @@ class NewsProvider
     public function provide(int $id): News
     {
         $news = $this->newsRepository->find($id);
+        
         if ($news === null) {
             throw new DomainException(
                 sprintf('News with id "%d" not found', $id), Response::HTTP_NOT_FOUND
