@@ -1,7 +1,7 @@
 # Symfony Application Handling Exceptions
 
 An sample application showing how to handle uncaught exceptions.  
-Read the [Handling Exceptions in a Symfony Application](https://web-mastering.blogspot.com/2022/08/handling-exceptions-in-symfony.html) to learn more about how exceptions are handled by the Symfony kernel.
+Read [Handling Exceptions in a Symfony Application](https://web-mastering.blogspot.com/2022/08/handling-exceptions-in-symfony.html) to learn more about how exceptions are handled by the Symfony kernel.
 
 All uncaught exceptions are handled by the Symfony kernel and return data created by SerializerErrorRenderer (via ProblemNormalizer), either TwigErrorRenderer or HtmlErrorRenderer.  
 
